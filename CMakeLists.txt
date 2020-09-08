@@ -63,7 +63,7 @@ function(check_platform_supports_browse_mode RESULT)
 		OUTPUT_QUIET
 		ERROR_QUIET
 	)
-	if(NOT inline_result EQUAL "0")
+        if(WIN32 OR NOT inline_result EQUAL "0")
 		# The inline script failed, so browse mode is not supported.
 		set(${RESULT} "0" PARENT_SCOPE)
 		if(NOT WIN32)
