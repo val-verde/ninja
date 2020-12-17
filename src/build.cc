@@ -12,18 +12,21 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "build.h"
-
 #include <assert.h>
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <functional>
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 #if defined(__SVR4) && defined(__sun)
 #include <sys/termios.h>
 #endif
 
+#include "build.h"
 #include "build_log.h"
 #include "clparser.h"
 #include "debug_flags.h"

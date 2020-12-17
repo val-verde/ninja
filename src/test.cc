@@ -16,8 +16,6 @@
 #include <direct.h>  // Has to be before util.h is included.
 #endif
 
-#include "test.h"
-
 #include <algorithm>
 
 #include <errno.h>
@@ -33,6 +31,7 @@
 #include "graph.h"
 #include "manifest_parser.h"
 #include "util.h"
+#include "test.h"
 
 #ifdef _AIX
 extern "C" {

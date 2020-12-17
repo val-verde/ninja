@@ -25,6 +25,7 @@
 #include <signal.h>
 #endif
 
+using namespace std;
 // ppoll() exists on FreeBSD, but only on newer versions.
 #ifdef __FreeBSD__
 #  include <sys/param.h>

@@ -12,8 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "metrics.h"
-
 #include <errno.h>
 #include <stdio.h>
 #include <string.h>
@@ -27,6 +25,7 @@
 #include <algorithm>
 
 #include "util.h"
+#include "metrics.h"
 
 using namespace std;
 

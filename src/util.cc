@@ -12,8 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "util.h"
-
 #ifdef __CYGWIN__
 #include <windows.h>
 #include <io.h>
@@ -57,6 +55,7 @@
 
 #include "edit_distance.h"
 #include "metrics.h"
+#include "util.h"
 
 using namespace std;
 

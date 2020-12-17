@@ -12,8 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "line_printer.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #ifdef _WIN32
@@ -29,6 +27,7 @@
 #endif
 
 #include "util.h"
+#include "line_printer.h"
 
 using namespace std;
 

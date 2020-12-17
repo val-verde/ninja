@@ -12,13 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "msvc_helper.h"
-
 #include <fcntl.h>
 #include <io.h>
 #include <stdio.h>
 #include <windows.h>
 
+#include "msvc_helper.h"
 #include "clparser.h"
 #include "util.h"
 
